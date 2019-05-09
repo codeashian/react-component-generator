@@ -1,0 +1,18 @@
+{
+  "name": "cli-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Elina Åberg <elina.aberg@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "ora": "^3.4.0",
+    "prompts": "^2.0.4"
+  },
+  "scripts": {
+    "create-react-compnent": "node create-react-components.js"
+  },
+  "bin": {
+    "comp-create": "create-react-components.js"
+  }
+}
