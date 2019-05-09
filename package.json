@@ -2,7 +2,7 @@
   "name": "cli-tools",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Elina Åberg <elina.aberg@hotmail.com>",
+  "author": "Elina Åberg <hello@elina.io>",
   "license": "MIT",
   "devDependencies": {
     "fs-extra": "^7.0.1",
