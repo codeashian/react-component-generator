@@ -9,9 +9,6 @@
     "ora": "^3.4.0",
     "prompts": "^2.0.4"
   },
-  "scripts": {
-    "create-react-compnent": "node create-react-components.js"
-  },
   "bin": {
     "comp-create": "create-react-components.js"
   }
