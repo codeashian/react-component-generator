@@ -44,7 +44,7 @@ const pascalCase = str => {
 	});
 
 	const templateFile = await fs.readFile(templateFilePath, 'utf8').catch(err => spinner.fail(err));
-	const fileContents = templateFile.replace(/COMPONENTNAME/g, pascalCase(name.value));
+	const fileContents = templateFile.replace(/COMPONENT_NAME/g, pascalCase(name.value));
 
 	// Create file
 	await fs.appendFile(filePath, fileContents).catch(err => spinner.fail(err));

@@ -10,6 +10,6 @@
     "prompts": "^2.0.4"
   },
   "bin": {
-    "comp-create": "create-react-components.js"
+    "comp-create": "index.js"
   }
 }
